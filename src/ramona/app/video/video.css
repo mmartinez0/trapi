@@ -1,0 +1,75 @@
+/*
+#wapper {
+
+    padding-left: 0;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#video-grid {
+	width: 65%;
+}
+
+#video-item {
+	width: 35%;
+}
+*/
+
+.animate-show {
+  opacity: 1;
+}
+
+.animate-show.ng-hide-add, 
+.animate-show.ng-hide-remove {
+	transition: all linear 0.5s;
+}
+
+.animate-show.ng-hide {
+}
+
+#video-poster,
+#video-poster img {
+	width: 480px;
+	height: 360px;
+}
+
+div.m-modals > .modal {
+	width: 520px;
+	/*height: 890px;*/
+	height: 520px;
+	margin: 0 auto;
+	overflow-y: auto; 
+}
+
+div.m-modals video,
+div.m-modals canvas {
+	width: 100%;
+}
+
+div.m-modals canvas {
+	height: 334px;
+}
+
+/*
+div.m-modals .player-dialog video {
+
+	height: 320px;
+	width: 480px;
+	margin: 0 auto;
+	display: block;
+}
+
+div.m-modals .player-dialog canvas {
+
+	margin: 0 auto;
+	display: block;
+}
+*/
+
+div.m-modals .library-dialog {
+
+	width: 720px;
+	overflow-y: scroll; 
+}
